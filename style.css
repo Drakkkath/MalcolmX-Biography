@@ -1,60 +1,65 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    font-family: 'Slabo 27px', serif;
-    color: white;
-    background-color: #16161a;
-    margin-left: 30px;
-    margin-top: 30px;
+body {
+  font-family: "Slabo 27px", serif;
+  color: white;
+  background-color: #16161a;
+  margin-left: 30px;
+  margin-top: 30px;
 }
 
-.content{
-    width: auto;
-    margin-left: 50px;
+.content {
+  width: auto;
+  margin-left: 50px;
 
-    max-width: 100%;
+  max-width: 100%;
 }
 
-.grid{
-    display: grid;
-    grid-template-columns: 25% 70%;
+.grid {
+  display: grid;
+  grid-template-columns: 25% 70%;
 }
 
-.side img{
-    margin-bottom: 40px;
-    max-width: 100%;
+.side img {
+  margin-bottom: 40px;
+  max-width: 100%;
 }
 
-.side{
-    text-align: center;
-    max-width: 100%;
+.side {
+  text-align: center;
+  max-width: 100%;
 }
 
-.quick-facts-titles{
-    color: #b4b4b4;
-    font-size: 12px;
+.quick-facts-titles {
+  color: #b4b4b4;
+  font-size: 12px;
 }
 
-#quick-facts p{
-    font-size: 16px;
-    margin-bottom: 10px;
+#quick-facts p {
+  font-size: 16px;
+  margin-bottom: 10px;
 }
 
-#quick-facts{
-    padding: 20px;
-    border-style: solid;
-    border-color: #ffffff;
-    border-width: 1px;
+#quick-facts {
+  padding: 20px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px;
 }
 
 article p {
-    font-size: 22px;
-    margin-bottom: 20px;
+  font-size: 22px;
+  margin-bottom: 20px;
 }
 
-article h6{
-    font-size: 30px;
+article h6 {
+  font-size: 30px;
+}
+
+a:hover {
+  color: gray;
+  transition: 0.2s;
 }
