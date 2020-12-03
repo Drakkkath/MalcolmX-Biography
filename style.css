@@ -14,7 +14,6 @@ body {
 .content {
   width: auto;
   margin-left: 50px;
-
   max-width: 100%;
 }
 
@@ -50,16 +49,34 @@ body {
   border-width: 1px;
 }
 
-article p {
+article p,
+q {
   font-size: 22px;
+  color: #94a1b2;
   margin-bottom: 20px;
 }
 
 article h6 {
-  font-size: 30px;
+  font-size: 25px;
+  color: #fffffe;
+  margin-bottom: 20px;
 }
 
 a:hover {
   color: gray;
   transition: 0.2s;
+}
+
+.article-images {
+  display: block;
+  max-width: 80%;
+  height: auto;
+  margin: 40px auto;
+}
+
+#copyrights {
+  text-align: justify;
+  text-align-last: right;
+  margin-right: 20px;
+  margin-top: 50px;
 }
